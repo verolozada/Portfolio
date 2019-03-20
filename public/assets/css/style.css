@@ -1,0 +1,90 @@
+body, html{
+  height: 100%;
+}
+html {
+  scroll-behavior: smooth;
+}
+nav ul li a {
+  color: black;
+}
+
+
+#menubar{
+  margin-top: 45vh;
+}
+
+.menu-icon{
+  color: #880e4f;
+}
+
+
+#name{
+  font-family: 'Satisfy', cursive;
+  color: #880e4f;
+}
+
+#quote{
+  line-height: 1.2em;
+  color: gray;
+  font-family: 'ZCOOL XiaoWei', serif;
+  font-style: italic;
+}
+
+.user-view{
+  margin-bottom: 1.5vh;
+}
+
+.list{
+  margin: 1.2vh;
+  color: black;
+  font-family: 'Nunito', sans-serif;
+  font-size: 2.5vh;
+  font-weight: bold;
+}
+
+a:hover{
+color: #880e4f;
+}
+
+.inactive{
+display: none;
+}
+
+.active{
+  color: blue;
+}
+
+.description{
+  margin-top: 25vh;
+}
+
+.pic{
+  height: 100vh;
+  width: 25vw;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+#des{
+  font-family: 'ZCOOL XiaoWei', serif;
+  color: gray;
+}
+
+.title{
+  font-family: 'Bree Serif', serif;
+  overflow: hidden; 
+  white-space: nowrap; 
+  letter-spacing: .10em; 
+  animation: 
+    typing 3.0s steps(30, end),
+    blink-caret .90s step-end infinite;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+@keyframes blink-caret {
+  from, to { border-color: transparent } 
+}
+
